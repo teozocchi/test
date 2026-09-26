@@ -20,4 +20,4 @@ Each role sees the idea plus every argument before it: the Skeptic reads the Bel
 
 Ask Claude to "run the council" on an idea, or type `/council`. The step-by-step procedure is in [`.claude/skills/council/SKILL.md`](../.claude/skills/council/SKILL.md).
 
-The role definitions load when a Claude Code session starts, so a new session can call them by name (`believer`, `skeptic`, `investor`, `judge`).
+Claude Code loads the role definitions from `.claude/agents/`, so any session can call them by name (`believer`, `skeptic`, `investor`, `judge`).

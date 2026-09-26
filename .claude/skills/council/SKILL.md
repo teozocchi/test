@@ -17,6 +17,6 @@ The council is four subagents defined in `.claude/agents/`: `believer`, `skeptic
 
    Save each role's output verbatim to the session folder as `1-believer.md`, `2-skeptic.md`, `3-investor.md` and `4-judge.md`. Ask the first three roles to mark any figure they didn't verify as an estimate.
 
-   If the role agents aren't available by name (they load when a session starts), run each one as a general-purpose agent with the body of `.claude/agents/<role>.md` pasted at the top of its prompt as its instructions.
+   If the role agents aren't available by name yet (a newly created definition can take a while to load), run each one as a general-purpose agent with the body of `.claude/agents/<role>.md` pasted at the top of its prompt as its instructions.
 4. **Check the Judge's ledger entry** (right place, right format, links work), then commit and push the session.
 5. **Report back** with the verdict, the biggest risk and the 10-minute test, and flag any factual error in the arguments.
