@@ -9,7 +9,7 @@ The council is four subagents defined in `.claude/agents/`: `believer`, `skeptic
 
 1. **Read `council/ledger.md` first.** If the idea has been judged before, put the previous verdict, risk and test result in the brief, so the council builds on them instead of starting over.
 2. **Write the brief** to `council/sessions/<YYYY-MM-DD>-<slug>/idea.md`: the idea as it currently stands, in the founder's terms, plus what changed since the last verdict and what's still unknown.
-3. **Run the roles in order, one at a time, in the foreground.** Paste the inputs into each prompt rather than relying on the agent to find them:
+3. **Run the roles in order, one at a time.** Paste the brief into each prompt. Give the earlier arguments either pasted in or as paths to their saved files, with an explicit instruction to read them in full before starting:
    1. `believer` gets the brief.
    2. `skeptic` gets the brief and the Believer's case.
    3. `investor` gets the brief and both arguments.
