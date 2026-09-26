@@ -1,51 +1,83 @@
 # 3. Go-to-market
 
-## The funnel — Idea
+## First customer — Decided
 
-1. **The tear-down:** buy the #1 best-selling "Vitamin C" shower filter on Amazon, cut it in half on camera, and give a 30-second whiteboard breakdown of why the water's contact time makes it impossible for the carbon to work.
-2. **The solution:** show the First Principle heavy-steel reactor. Show the math.
-3. **The conversion:** end with "To see the fluid dynamics calculations and the third-party lab tests, read the whitepaper at the link in my bio."
+**The engineer-skeptic:** homelab owners, data engineers, bio-hackers.
 
-The format is strong: a physical tear-down, a clear explanation, and proof one click away. The issues below are about making it unbeatable.
+The logic: never target the mainstream first. Mainstream buyers buy marketing, and we don't have a €10M budget to fight Dyson. Win the skeptics with the raw physics and the CADR formulas, and they become evangelists. The mainstream follows because the smart people are using it (hopefully).
 
-## Issues
+Notes *(Claude)*:
+- **They're also the harshest reviewers.** One inflated spec (like H14; see [product](04-product.md)) and the first Reddit thread is about that, not the product.
+- **Their first questions will be:** CADR per euro, CADR per dB(A), "why not a Corsi-Rosenthal box?", "does it need an app or a cloud account?" and "can I buy filters anywhere?" The product needs a clean answer to each.
+- **Bio-hackers aren't skeptics.** They're among the wellness industry's best customers. They may well buy, but our messaging shouldn't borrow their language.
 
-### The script attacks the wrong mechanism — Open, blocking
+### Endorse the DIY alternative — Proposed *(Claude)*
 
-Vitamin C filters don't depend on carbon contact time. Ascorbic acid neutralizes chlorine through a fast chemical reaction, and it's a standard dechlorination method. A contact-time argument against a vitamin C filter is wrong, and an expert will say so in the comments. For this brand, that is the one video we can't afford to publish.
+The Corsi-Rosenthal box (a box fan taped to four furnace filters) matches or beats many store-bought purifiers on raw CADR, for a fraction of the price. This audience knows it. Instead of avoiding it, publish the build guide ourselves, then say honestly what ours does better (noise, safety certification, carbon, build quality) and what that costs. That's house rule 6 in action, and nothing would earn more trust with this audience.
 
-**Fix *(Claude)*: measure, don't argue.** On camera, measure free chlorine before and after the filter with a DPD photometer, at real shower flow and temperature, and keep measuring across the cartridge's claimed lifespan. The number is the argument. The hacksaw and whiteboard then explain *why* the number is what it is.
+## Market — Decided
 
-Where the contact-time argument does work: carbon-only and KDF (copper-zinc) filters.
+**EU-wide, English-first.** Italy is a weak e-commerce market for this price point; the people who spend €400 on an over-engineered purifier are in DACH, the Nordics and the UK. The brand is built entirely in English and ships from an Italian or German 3PL warehouse.
 
-Weaknesses worth measuring in vitamin C filters:
-- **Capacity vs. claimed lifespan.** Back-of-envelope *(to be checked)*: roughly 2.5–3 mg of vitamin C neutralizes 1 mg of chlorine. A 10-minute shower at 8 L/min with 0.5 mg/L chlorine carries 80 L × 0.5 mg/L = 40 mg of chlorine, so about 100–120 mg of vitamin C per shower. Weigh the vitamin C in the cartridge and the lifespan claim can be checked.
-- **The other claims on the box** (heavy metals, fluoride, "99% of contaminants"). These often don't hold up.
+Notes *(Claude)*:
+- **The UK and Switzerland are outside the EU customs area.** Shipping there from an EU warehouse means customs declarations, and import VAT (possibly duties too) collected from the customer on delivery unless we ship duties-paid. UK orders over £135 fall in that category. Treat them as a second phase, or plan duties-paid shipping.
+- **English-first works for the website, not for the box.** The EU's General Product Safety Regulation requires instructions and safety information in a language consumers can easily understand, as set by each country (Germany requires German, for example). Manuals and safety labels need local languages.
+- **Every country adds paperwork before the first sale:** electronics-recycling (WEEE) producer registration, and packaging registration (Germany's LUCID, for example). That argues for launching in a handful of countries, not all 27.
+- **A German 3PL** is closer to DACH, Benelux and the Nordics than an Italian one: faster and cheaper delivery to the target market.
+- **VAT:** register for the EU One-Stop Shop (OSS) to charge each country's VAT from a single registration.
 
-### What does our reactor actually do? — Open
+**Launch countries — Open.** A possible first wave *(Claude)*: Germany, Austria, the Netherlands, Denmark, Sweden, Finland.
 
-The "heavy-steel reactor" needs a mechanism before it needs a design: what it removes, how, at what flow rate and for how many litres.
+## Market size — for the pitch deck, not the website
 
-If the honest math says vitamin C is the right chemistry at shower flow rates, our product may use it too. Then we'd compete on honesty: the correct dose, real capacity, a verification kit and an end-of-life indicator.
+Your figures (they arrived garbled in the message; this is my reading):
+- Global wellness economy: **$5.6 trillion in 2022** (Global Wellness Institute)
+- Global air purifier market: projected **$22 billion by 2030** (Grand View Research)
 
-The truly "industrial" answer is a whole-house carbon filter where water enters the home: long contact time, and it can handle chloramine with catalytic carbon. But it needs a plumber, which is hard for a mass-market product.
+Notes *(Claude)*:
+- **Customers don't care about market size; investors do.** These belong in the pitch deck and business plan, not the site footer. If a figure ever does appear on the site, it goes in the Claims Log like any other claim.
+- **Market projections are weak evidence.** Label them as market research estimates, cite the edition and year, and check whether the figure covers residential only or residential plus commercial.
+- The GWI figure shouldn't be used to size "the enemy"; see [philosophy](01-philosophy.md).
 
-### Is shower chlorine a problem worth solving? — Open
+## Comparisons — Proposed *(Claude)*
 
-Removing chlorine is measurable. Whether that improves skin or hair at tap-water levels is weakly evidenced. Buyers want the biology, and house rule 2 says we can only sell the physics. The risk: a shower filter sells into the very belief the brand attacks. Where tap water isn't chlorinated at all (e.g. the Netherlands), the product is pointless, and we'd have to say so.
+The tone decision's example: quietly post a chart showing that a €600 Dyson uses 200 g of carbon while our €400 machine uses 2,500 g, and let the data make the case.
 
-Worth weighing: a first product where both the physics and its relevance are solid. Air purification is one example, since the health effects of fine particulate matter (PM2.5) are well established.
+Before a comparison like that runs:
+1. **Measure it ourselves.** The 200 g figure is unverified. Buy the filter, weigh the carbon on camera, publish the photo.
+2. **Include the competitors that beat us** (house rule 4). On carbon mass, that means at least Austin Air's HealthMate (about 6.8 kg of carbon and zeolite, steel housing) and IQAir's GC MultiGas (about 5.4 kg of carbon and alumina). These are manufacturer figures; verify before use. The claim then becomes a defensible trade-off, such as "the most carbon under €X".
+3. **Say what the metric means.** Carbon mass predicts *capacity* (how much it can absorb before it's saturated), not *removal rate* (how fast it cleans the room). Removal rate depends on airflow and contact time.
+4. **Stay within comparative-advertising law.** EU law allows comparisons that are objective, verifiable and not denigrating (Directive 2006/114/EC). Calm, measured, method published: that's our tone anyway.
 
-### Link to the simple page, not the whitepaper — Proposed *(Claude)*
+## The funnel — Proposed *(Claude)*, adapted to air
 
-Most viewers won't read a whitepaper. Link to the product page (simple layer) with the proof one tap away. The whitepaper convinces the few who check it; its existence convinces everyone else.
+The original funnel (tear-down → solution → conversion) was written for the shower filter. Adapted to the purifier:
 
-### Comparative advertising — Open
+1. **The tear-down.** Buy the best-selling purifier and, on camera:
+   - weigh its carbon on a kitchen scale;
+   - measure its noise at every fan speed with a sound meter;
+   - measure its CADR in a real room with a particle sensor, using the decay method below.
+2. **The solution.** Run the same tests on ours: same room, same instruments, results side by side, including anything the competitor wins.
+3. **The conversion.** "The method, the raw data and our third-party lab report are at the link." The link goes to the simple product page, with the proof one tap away.
 
-EU law allows comparative advertising if it's objective and verifiable (Directive 2006/114/EC), and some countries, Germany for example, apply this strictly. Naming a real product on camera needs legal review first. Measured results with a published method are the defence.
+**The decay method** (the whiteboard moment). In a well-mixed room, particle concentration falls exponentially: C(t) = C₀·e^(−kt). Raise the particle level (a burnt match works), then measure the decay rate with the purifier off (k_off) and on (k_on):
 
-### Missing from the funnel — Open
+> CADR = V × (k_on − k_off), where V is the room volume.
 
-- Price and business model (hardware plus replacement cartridges?)
-- Channels beyond short-form video
-- After purchase: verification kit, replacement reminders, reviews
+A cheap sensor is enough, because the decay *rate* largely doesn't depend on the sensor's absolute calibration. Publishing the protocol lets any viewer check our numbers: *"Don't believe us. Measure it."*
+
+Evidence tiers: tear-down results are "in-house measurement"; the CADR we advertise comes from a third-party lab.
+
+## Carried over from the water version
+
+The shower filter was dropped when product #1 became air (see [product](04-product.md)). Two lessons carry over:
+- **Measure, don't argue.** The number is the argument; the whiteboard explains it.
+- **Link to the simple page, not the whitepaper.** Most viewers won't read a whitepaper, but its existence convinces them anyway.
+
+The full water-version analysis is in the git history.
+
+## Still missing from the funnel — Open
+
+- Price (€400?) and margin
+- Channels beyond short-form video (Reddit, Hacker News, YouTube reviewers, the Home Assistant community)
+- After purchase: filter-life alerts, replacement orders, reviews

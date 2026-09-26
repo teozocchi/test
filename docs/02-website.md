@@ -26,14 +26,14 @@ Example entry (all values are placeholders):
 
 ```yaml
 id: C-0001
-claim: "Reduces free chlorine by at least 95% at 10 L/min and 38 °C."
-product: shower-filter
+claim: "Clean air delivery rate of 350 m³/h for particles."
+product: air-purifier
 status: active            # active | revised | retracted
 evidence:
   tier: third-party-lab   # third-party-lab | in-house-measurement | calculation | published-literature
-  standard: NSF/ANSI 177  # the standard for shower filters
+  standard: AHAM AC-1     # or the IEC 63086 series; to be decided
   source: reports/C-0001-lab-report.pdf
-first_published: 2026-10-01
+first_published: 2027-03-01
 history: []               # every change: date, old wording, reason
 ```
 
@@ -41,14 +41,20 @@ Notes:
 - **Label the evidence tier.** A calculation *supports* a claim; a measurement *proves* it. Each claim should say which one it rests on.
 - **Physics claims need lab tests, not clinical studies.** The right evidence is usually our own product tested by an accredited (ISO/IEC 17025) lab against a published standard. Clinical studies only matter for biological claims, which house rule 2 keeps us away from.
 - **Retracted claims stay in the log**, with the reason. That's the strongest credibility signal we have.
-- **Git history is the audit trail.** The Claims Log could even link to a public repository so anyone can see when and why each claim changed.
+- **Git history is the audit trail.** The Claims Log could link to a public repository so anyone can see when and why each claim changed.
 
-## Framework — Proposed *(Claude)*
+## Framework — Decided
 
-- **Content site: Astro.** Built for content-heavy sites: Markdown/MDX with footnotes, maths rendering (KaTeX), and content collections with schema validation and cross-references, which is exactly what the Claims Log check needs.
-- **Commerce: don't build it.** Use Shopify for checkout, payments, EU VAT and inventory, connected to the Astro site through Shopify's Storefront API.
-- **Alternative:** Shopify alone at launch. Faster, but the whitepapers and the Claims Log are harder to do well.
+**Astro + headless Shopify.**
 
-## Hosting — Proposed *(Claude)*
+- **Shopify** runs the back end: inventory, payments, EU tax compliance, shipping labels. Its back end is hard to beat; its front-end themes are slow and JavaScript-heavy.
+- **Astro** builds the site: fast pages, MDX whitepapers, a custom design, and content collections for the Claims Log build check.
+- The two connect through Shopify's **Storefront API**. When someone clicks "Buy", the site hands off to Shopify's checkout.
 
-Static hosting on Cloudflare Pages, Netlify or Vercel. All work and all are cheap; decide together with the framework.
+Notes *(Claude)*:
+- Astro ships no JavaScript by default, but the cart needs a small interactive component. "Nearly zero JS" is the accurate claim.
+- The checkout page is Shopify's hosted checkout, so its styling is limited to what Shopify's checkout settings allow. The custom design covers everything before it.
+
+## Hosting — Open
+
+Proposed *(Claude)*: static hosting on Cloudflare Pages, Netlify or Vercel. All three work and are cheap at this scale.
