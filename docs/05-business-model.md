@@ -14,6 +14,8 @@ The idea: design the machine around a universal, industry-standard filter size, 
 
 ## Unit economics at €400 — Council estimates, unverified
 
+These numbers describe the H13 design that failed gate 0 on 2026-09-26. They stay as the benchmark any product #1 has to beat on cost.
+
 - **Net price after VAT:** €336 in Germany (19%), €320 in Denmark and Sweden (25%).
 - **Ceilings:** a 50% gross margin, a common benchmark for direct-to-consumer brands in German-speaking Europe, caps landed cost at €168. Pricing hardware at 2.5–4× its bill of materials caps the parts at €84–134.
 - **Parts,** one-off retail price → volume estimate:
@@ -43,6 +45,7 @@ The idea: design the machine around a universal, industry-standard filter size, 
 
 1. **The European industrial standard.** Commercial ventilation filters in Europe come in standard face sizes (EN 15805, e.g. 592 × 592 mm and 287 × 592 mm), made by several industrial suppliers in grades up to EPA/HEPA. Building around one would make "industrial-grade" literal: *"Our filter is a standard 287 × 592 mm industrial module. Buy ours or anyone's."* To check: which sizes and depths exist in the grade we pick, their prices, and whether the size fits the product.
    - **Council:** the Judge called this "the best idea in the file". German B2B shops sell the module one at a time, so "buy ours or anyone's" is true in Europe. Still to confirm: that it fits the prototype (gate 1).
+   - **Gate 0 (2026-09-26):** the module's pressure drop is what failed the noise gate at 450 m³/h, so this fix went with the H13 design. A low-pressure re-spec would need large-area panels instead, such as the ePM1 panels European Corsi-Rosenthal builders buy locally.
 2. **Open spec.** Publish the filter's full specification (dimensions, gasket, media grade, test standard) under an open licence, with no chips and no DRM. Any manufacturer can make compatible filters. *"Any filter built to this spec fits. Here's the drawing."* True from day one, and a third-party supply grows if the product succeeds.
 3. **Refillable carbon.** The carbon tray takes loose granular carbon, and we publish the grade (raw material, particle size, a measured adsorption property). Any supplier's carbon works; ours is the convenient option. Loose carbon is dusty, so we'd also sell sealed refill packs.
 

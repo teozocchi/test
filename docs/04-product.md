@@ -1,5 +1,7 @@
 # 4. Product #1: the air purifier
 
+> **Killed at gate 0 on 2026-09-26.** The quietest fan found for 450 m³/h at 100 Pa has a sound power of 59.3 dB(A), 9.3 dB over the council's limit. Under its tripwire, that kills the purifier as specified: the H13 module plus 2.3 kg of carbon. The result and what it leaves open are below the gates. The rest of this doc stays as the record, and as the starting point for any re-spec.
+
 ## Council verdict — FIX FIRST
 
 The [idea council](../council/README.md) reviewed this product on 2026-09-26: see the [ledger entry](../council/ledger.md) and the [full ruling](../council/sessions/2026-09-26-first-principle/4-judge.md).
@@ -18,6 +20,35 @@ The [idea council](../council/README.md) reviewed this product on 2026-09-26: se
 3. **Paid for.** 300 paid, refundable €50 deposits in 30 days, on a page showing the measured chart. See the deposit test in [go-to-market](03-go-to-market.md).
 
 Gates 0 and 1 come first; gates 2 and 3 can then run in parallel. If gate 0 or 1 fails, or gate 3 falls short of 300, product #1 is killed. The brand stays, and the council picks a new product #1.
+
+### Gate 0 result (2026-09-26): failed
+
+The founder's fan-selector results at the gate's duty point, 450 m³/h:
+
+| Fan | Size and footprint | Clean filter (100 Pa) | Loaded filter (250 Pa) |
+|---|---|---|---|
+| K3G225RE0703 | 225 mm; 270 × 270 × 131 mm; 2.4 kg | 61.1 dB(A), 29 W | 68.6 dB(A), 65 W (quietest when loaded) |
+| K3G250RE0707 | 250 mm; 300 × 300 × 116 mm; 2.7 kg | **59.3 dB(A)**, 30 W (quietest when clean) | 69.1 dB(A), 70 W |
+| K3G220RD5303 | 220 mm; 270 × 270 × 111 mm | 62.8 dB(A), 30 W | 70.2 dB(A), 69 W |
+| VBH0190SSLES (…0657) | 190 mm; 216 × 216 × 98 mm; 1.75 kg | 66.5 dB(A), 28 W | 70.6 dB(A), 58 W (most efficient when loaded) |
+
+The power figures fit the duty point: 450 m³/h against 100 Pa is 12.5 W of air power, about 42% of the 30 W drawn.
+
+Reading *(Claude)*:
+- **The quietest fan is 9.3 dB over the limit.** With the gate's own conversion, it would be about 53 dB(A) at 1 m against the Luggable's 38.8: roughly 14 dB louder, which the ear hears as well over twice as loud.
+- **The fine print doesn't rescue it.** If these figures are sound pressure rather than sound power, the fans are louder still. And if the Luggable's 38.8 dB(A) is a measurement floor, the Luggable is quieter and the gap is bigger.
+- **A bigger fan won't close it.** Going from 190 to 225 mm gained 5.4 dB, but 225 to 250 mm only 1.8 dB; another 9 dB from size alone is implausible. (A check at 280–310 mm would settle it for the record.)
+- **The problem is pressure.** From the 250 mm fan's two points, 50 dB(A) at 450 m³/h needs a total system pressure of roughly 35–40 Pa (an extrapolation). The H13 module alone takes about 75 Pa at that flow, before any carbon. Getting it near 20 Pa would take three to four modules' worth of media, which would also break the cost gate.
+- **A loading filter makes it worse:** at 250 Pa the fans are 4–10 dB louder than when clean (the quietest clean fan gains 9.8 dB), so a quiet claim would only hold for a new filter.
+- **One by-product holds up:** at the same airflow, fan power more than doubles between a clean and a loaded filter (28–30 W → 58–70 W). Measuring particle-filter load from fan power works.
+
+**Result:** under the council's tripwire, product #1 as specified is killed, and gates 1–3 are cancelled. The brand stays.
+
+### What the result leaves open
+
+The council's one surviving gap was a quiet purifier with kilograms of carbon for bedrooms that get stove smoke. Gate 0 shows HEPA-grade media can't be part of it at this airflow and noise level without an oversized, overpriced filter. A version without the H13 module is a different product: large-area, lower-grade particle filters (the Corsi-Rosenthal route) plus a wide carbon bed, inside roughly 35–40 Pa in total.
+
+Even that is tight. To stay around 15–20 Pa, 2.3 kg of granular carbon needs about a third of a square metre of face area, which leaves little of the budget for the particle filter. It probably can't beat the Luggable on particle CADR at equal noise, so it would have to compete on odour and VOC capacity instead. Whether anyone pays for that is a question for a new council session; the idea inherits no pass from this one.
 
 ## Why air — Decided
 

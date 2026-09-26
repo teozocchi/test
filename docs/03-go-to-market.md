@@ -80,6 +80,8 @@ Council additions (2026-09-26):
 
 ## The deposit test (gate 3) — Council
 
+**Status:** cancelled with the air purifier as specified, which failed gate 0 on 2026-09-26. The method stays: it's how any product #1 should test demand.
+
 The Investor's demand test. The Judge placed it after the prototype measurement (gate 1), so the page shows a measured number instead of a promise.
 
 1. **One Shopify page.** A €50 deposit against the price, refundable on request at any time. Claim only what's true on the day: the price, the standard H13 module, the refillable carbon, no app or account, and the measured chart from gate 1.
@@ -91,7 +93,7 @@ Why deposits and not a waitlist: newsletter sign-ups convert to buyers at 5–10
 
 ## The funnel — Proposed *(Claude)*, adapted to air
 
-**On hold until gate 1 passes (council).** When it resumes, tear-downs of named competitors quote lab-tested figures (comparison 7 above), and our in-house measurements demonstrate the method on our own machine.
+**On hold until a product #1 passes its first measurement gate (council).** When it resumes, tear-downs of named competitors quote lab-tested figures (comparison 7 above), and our in-house measurements demonstrate the method on our own machine.
 
 The original funnel (tear-down → solution → conversion) was written for the shower filter. Adapted to the purifier:
 

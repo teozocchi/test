@@ -1,6 +1,6 @@
 # 2. Website and software
 
-> **Frozen (council, 2026-09-26):** no Astro code and no Claims Log build check until the prototype passes gate 1 (see [product](04-product.md)). The deposit page for gate 3 can be a single Shopify page.
+> **Frozen (council, 2026-09-26):** no Astro code and no Claims Log build check until a product #1 passes its first measurement gate. The air purifier as specified failed gate 0 on 2026-09-26 (see [product](04-product.md)). When a demand test comes, its page can be a single Shopify page.
 
 ## Two-layer product descriptions — Idea
 
@@ -46,7 +46,7 @@ Notes:
 - **Git history is the audit trail.** The Claims Log could link to a public repository so anyone can see when and why each claim changed.
 - **Competitor figures in ads need the third-party-lab tier** (council). In Germany, a named competitor can send a formal warning letter over a comparison backed only by in-house data; see comparisons in [go-to-market](03-go-to-market.md).
 
-## Framework — Decided, frozen until gate 1
+## Framework — Decided, frozen until a product #1 passes its first gate
 
 **Astro + headless Shopify.**
 
