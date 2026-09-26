@@ -4,7 +4,19 @@ A living brand document. **Nothing here is final.** Every idea can be challenged
 
 ## Where we are
 
-**Gate 0 failed on 2026-09-26, so product #1 as specified is killed.** The quietest fan found for 450 m³/h at 100 Pa has a sound power of 59.3 dB(A), 9.3 dB over the council's 50 dB(A) limit. The problem is pressure, not the fan: to be quiet enough, the whole machine would need roughly 35–40 Pa at that airflow, and the H13 module alone takes about 75 Pa. The raw numbers and the analysis are in the [product doc](docs/04-product.md). The brand stays; the next council session decides what product #1 becomes.
+**Archived on 2026-09-26.** First Principle isn't dead; it's filed away until we find a category where the physics allow a 50% gross margin.
+
+How we got here: the air purifier (product #1) failed its first gate. The quietest fan found for 450 m³/h at 100 Pa has a sound power of 59.3 dB(A), 9.3 dB over the council's 50 dB(A) limit. The problem was pressure, not the fan: to be quiet enough, the whole machine would need roughly 35–40 Pa at that airflow, and the H13 module alone takes about 75 Pa. Even before the noise test, each unit earned roughly nothing at €400. The raw numbers and the analysis are in the [product doc](docs/04-product.md).
+
+### Re-entry criterion
+
+Reopen the project when a candidate category passes three checks on paper, before anything is built:
+
+1. **The physics allow the claim.** The headline number is a measurable physical quantity, and a paper check (like the fan selector was) says the product can hit it.
+2. **The physics allow the margin.** The parts the physics require put landed cost at no more than half the net price the market already pays: a 50% gross margin.
+3. **Nobody owns the number.** No measured competitor already delivers that headline number for less.
+
+Then bring it to the council (`/council`), which reads the [ledger](council/ledger.md) and picks up from here.
 
 ### The verdict that set the test
 
@@ -24,14 +36,16 @@ The [idea council](council/README.md)'s first session ruled **FIX FIRST** ([ledg
 
 ## Next steps
 
-### Now: choose what goes to the council next
+Nothing is scheduled while the project is archived. When a candidate category comes up:
 
-- [ ] **A. A carbon-first purifier.** Build around the part nobody owns, kilograms of carbon for smoke odour, with large-area, lower-grade particle filters, inside roughly 35–40 Pa at a quiet level. It stops chasing the Luggable's particle CADR.
-- [ ] **B. New categories.** Two or three ideas where measured competitors don't already own the headline number. A candidate *(Claude)*: a passive, large-area carbon cassette for the machines engineer-skeptics already own (Corsi-Rosenthal boxes, PC-fan purifiers). With no motor or electronics, it needs none of the electrical CE, radio or cybersecurity work.
-- [ ] Run `/council` on the choice, with this gate result in the brief. A new idea gets its own gates; it inherits nothing from this one.
+- [ ] Run the three re-entry checks above, on paper.
+- [ ] If it passes, run `/council` on it, with this session's results in the brief.
 
-### Still worth doing, whatever product #1 becomes
+Candidates noted so far (neither has been through the checks):
+- **A carbon-first purifier:** kilograms of carbon for smoke odour, with large-area, lower-grade particle filters, inside roughly 35–40 Pa. It would compete on odour and VOC capacity, not on particle CADR.
+- **A passive carbon cassette** *(Claude)*: a large-area carbon insert for the purifiers engineer-skeptics already own (Corsi-Rosenthal boxes, PC-fan purifiers). With no motor or electronics, it needs none of the electrical CE, radio or cybersecurity work, but it has to add almost no air resistance.
 
+Optional groundwork that keeps its value while archived:
 - [ ] Trademark groundwork: a TMview check for national marks, and a read of Ab Initio's full goods list.
 - [ ] Domain and social handles for "First Principle".
 - [ ] Give the council real web access before its next session: raise the environment's Network access, or allow the review sites it needs (HouseFresh, Stiftung Warentest). The first session's agents could only read search snippets.
@@ -44,7 +58,7 @@ The [idea council](council/README.md)'s first session ruled **FIX FIRST** ([ledg
 
 Gate 1 (the prototype against the Luggable), gate 2 (supplier quotes) and gate 3 (the deposit test). The full plan is in the git history in case a re-spec revives parts of it, and the deposit-test method in [go-to-market](docs/03-go-to-market.md) works for any product.
 
-**Parked until a product #1 passes its first gate:** website and Claims Log code, hosting, and the tear-down videos. The slogan and the aesthetic block nothing, so they can wait for spare time.
+**Frozen while archived:** website and Claims Log code, hosting, and the tear-down videos.
 
 ## Status labels
 
@@ -65,12 +79,13 @@ Notes marked **Council** summarise the council's findings. Its market, price and
 
 | Topic | Current decision | Details |
 |---|---|---|
+| Project | **Archived** (2026-09-26) until a category passes the re-entry checks | [Where we are](#where-we-are) |
 | Product #1 | **Open.** The air purifier as specified was killed at gate 0 (2026-09-26) | [4. Product](docs/04-product.md) |
 | First customer | The engineer-skeptic | [3. Go-to-market](docs/03-go-to-market.md) |
 | Market | EU-wide, English-first | [3. Go-to-market](docs/03-go-to-market.md) |
 | Tone | Calm and clinical | [1. Philosophy](docs/01-philosophy.md) |
 | Business model | Hardware plus open, DRM-free consumables | [5. Business model](docs/05-business-model.md) |
-| Tech stack | Astro + headless Shopify, **frozen** until a product #1 passes its first gate | [2. Website](docs/02-website.md) |
+| Tech stack | Astro + headless Shopify, **frozen** while archived | [2. Website](docs/02-website.md) |
 
 ## Documents
 
@@ -85,10 +100,10 @@ Notes marked **Council** summarise the council's findings. Its market, price and
 
 ## Open questions
 
-Roughly in order of how much they unblock.
+The backlog for when the project reopens, roughly in order of how much each unblocks.
 
-1. **What goes to the council next.** A carbon-first purifier, or new categories? See next steps above.
-2. **If the carbon-first purifier: the pressure budget.** Can 2.3 kg of carbon and large-area particle filters fit within roughly 35–40 Pa at a quiet level in a home-sized box, and would anyone pay for it over a Luggable? ([Product](docs/04-product.md))
+1. **Which category passes the re-entry checks?** See [where we are](#where-we-are).
+2. **For the carbon-first candidate: the pressure budget.** Can 2.3 kg of carbon and large-area particle filters fit within roughly 35–40 Pa at a quiet level in a home-sized box, and would anyone pay for it over a Luggable? ([Product](docs/04-product.md))
 3. **What's defensible.** An open design is a build sheet for a cheaper copy. ([Business model](docs/05-business-model.md))
 4. **Carbon saturation.** Fan power can't see the carbon filling up. How do we tell customers when to refill without the kind of timer we criticise? ([Product](docs/04-product.md))
 5. **Connectivity.** No radio in V1 (fastest and cheapest), local-only, or Matter? It also drives EU cybersecurity rules and the trademark class 9 question. ([Product](docs/04-product.md))
