@@ -1,5 +1,7 @@
 # 2. Website and software
 
+> **Frozen (council, 2026-09-26):** no Astro code and no Claims Log build check until the prototype passes gate 1 (see [product](04-product.md)). The deposit page for gate 3 can be a single Shopify page.
+
 ## Two-layer product descriptions — Idea
 
 No marketing fluff in either layer.
@@ -42,8 +44,9 @@ Notes:
 - **Physics claims need lab tests, not clinical studies.** The right evidence is usually our own product tested by an accredited (ISO/IEC 17025) lab against a published standard. Clinical studies only matter for biological claims, which house rule 2 keeps us away from.
 - **Retracted claims stay in the log**, with the reason. That's the strongest credibility signal we have.
 - **Git history is the audit trail.** The Claims Log could link to a public repository so anyone can see when and why each claim changed.
+- **Competitor figures in ads need the third-party-lab tier** (council). In Germany, a named competitor can send a formal warning letter over a comparison backed only by in-house data; see comparisons in [go-to-market](03-go-to-market.md).
 
-## Framework — Decided
+## Framework — Decided, frozen until gate 1
 
 **Astro + headless Shopify.**
 
@@ -57,4 +60,4 @@ Notes *(Claude)*:
 
 ## Hosting — Open
 
-Proposed *(Claude)*: static hosting on Cloudflare Pages, Netlify or Vercel. All three work and are cheap at this scale.
+Proposed *(Claude)*: static hosting on Cloudflare Pages, Netlify or Vercel. All three work and are cheap at this scale. Frozen with the rest of the website.

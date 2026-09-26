@@ -8,6 +8,7 @@ Notes:
 - The enemy explains *why we exist*; the products have to carry the brand. A brand that mostly debunks becomes a media channel, not a company.
 - Our claims about competitors must meet the same standard as our claims about ourselves (house rule 3). One overstated attack hands critics the win.
 - **Don't size the enemy with the wellness-economy figure** *(Claude)*. The Global Wellness Institute valued the global wellness economy at $5.6 trillion in 2022, but that total includes gyms, healthy eating, personal care and wellness tourism. Most of it isn't pseudoscience, so "we're fighting a $5.6T industry" would overstate our own source. (It's also in US dollars, and a newer GWI edition may exist.) Market-size figures belong in the pitch material; see [go-to-market](03-go-to-market.md).
+- **Council (2026-09-26): in air purification, the rival and the enemy are different companies.** The machines the engineer-skeptic compares against already sell honest physics at low prices: PC-fan purifiers like the CleanAirKits Luggable XL-7, and Stiftung Warentest winners like the Trotec 170 E and Bosch Air 4000. The pseudoscience (ionizers, "plasma", noise figures without a method) lives in the mass market. So the enemy will explain the brand to mainstream buyers later, but it gives no edge against the first customers' shortlist.
 
 ## Thesis — Proposed
 
@@ -21,6 +22,8 @@ Notes:
 4. **Comparisons include the competitors that beat us.** A chart showing only products we beat is marketing, not data.
 5. **Mistakes are corrected in public.** Retracted claims stay visible in the Claims Log, with the reason.
 6. **If the honest answer is "you don't need this," we say it.** A purifier does nothing for CO₂ (open a window), and in a room with already-clean air it won't do much.
+
+**Council (2026-09-26):** rule 4 binds even while it's only Proposed, because dropping it would drop the brand. Today it means the launch chart has to include the PC-fan purifiers that beat the draft.
 
 ## Tone — Decided
 
@@ -80,3 +83,5 @@ Proposed direction for the calm side *(Claude)*:
 Give every customer a way to verify our claims:
 - The purifier measures its own performance in the customer's room (the "room test" idea in [product](04-product.md)).
 - We publish the test protocol, so anyone with a particle sensor can check our numbers independently.
+
+**Council caution:** owners' room-test results will differ from the lab CADR, because the test assumes a well-mixed room. Publish the expected spread and the reason before anyone else finds the gap; otherwise the room test becomes our own "listed vs. measured" gotcha.
