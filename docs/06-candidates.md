@@ -21,11 +21,13 @@ The categories that screen badly fail in one of three ways:
 
 | Candidate | 1. Claim | 2. Margin | 3. Unowned | Biggest risk |
 |---|---|---|---|---|
-| Verified-SPF sunscreen | Yes, if labelled below the worst of several labs | Yes | Narrowly | Honest incumbents can copy it once it matters |
+| Verified-SPF sunscreen (**killed 2026-09-28**) | Yes, if labelled below the worst of several labs | Yes | No, once referees count | A referee-rated "gut" tube already sells for €5.25 |
 | Measured-comfort bedding | Yes (ISO 11092) | Likely | Apparently | Whether buyers pay for a number |
 | Carbon cassette for DIY purifiers | Plausible | Yes | Yes | A tiny market |
 
 ### 1. Verified-SPF sunscreen
+
+> **Killed by the council on 2026-09-28** ([ledger](../council/ledger.md), [ruling](../council/sessions/2026-09-28-verified-spf-sunscreen/4-judge.md)). The referee already owns the number: Stiftung Warentest rated dm's €5.25 SPF 50+ face fluid "gut". This screen passed check 3 only because it left independent testers out. The notes below are the paper screen as it stood before the session.
 
 - **The enemy is documented.** In June 2025, CHOICE found 16 of 20 SPF 50+ sunscreens below their label. Ultra Violette's Lean Screen tested at SPF 4. The company's own retests ranged from SPF 4 to 64, its base formula was judged unlikely to exceed SPF 21, and Australia's regulator (the TGA) questioned the lab that had certified it. All 19 sunscreens built on that base were cancelled from the register and recalled.
 - **The lesson:** test noise explains SPF 40 versus 50, not 4 versus 50. The failure was a weak formula certified once, by a lab that can't be trusted, and never checked again.

@@ -20,6 +20,16 @@ Entry format:
 
 <!-- New entries go directly below this line, newest first. -->
 
+## 2026-09-28 · First Principle, verified-SPF facial sunscreen
+
+- **Idea:** A daily facial sunscreen sold on one verified number, its SPF. Every formula and batch would be tested at several independent labs (in vivo, ISO 24444), labelled below the worst result, and every raw result published. It was the first candidate through the re-entry screen after the purifier was killed, sold first to skincare-literate buyers in DACH and the Nordics.
+- **Verdict:** KILL
+- **Biggest risk:** The referee already owns the number: Stiftung Warentest, which no brand pays, rated dm's €5.25 SPF 50+ face fluid "gut", and labs a brand pays for itself are weaker evidence at nearly five times the price.
+- **10-minute test:** Every figure in the session came from search snippets, so check the fact the KILL rests on yourself. Open Stiftung Warentest's most recent face-sunscreen test and list the SPF 50 and 50+ products it rated "gut" that met their label on UV protection. Then look up each one's price per 50 ml at dm or Rossmann today. If at least one costs less than €24.95 (the price the Investor's unit economics need), check 3 fails and the KILL stands. If none does, bring the list back and the council reopens sunscreen.
+- **Flips to BUILD when:** Not applicable (KILL). No change to the testing plan can flip it: more labs paid for by the brand don't make its evidence independent, and pre-orders don't change check 3. Only the 10-minute test coming out the other way reopens sunscreen. A different headline number would be a new candidate.
+- **Next session starts from:** The KILL ends this candidate, not the brand, and the project stays archived. Both candidates hit the same wall: the number was measurable, so referees and reviewers had already measured it, and a cheap product had already passed. Before the next council, add referees to re-entry check 3: consumer testers that buy off the shelf (Warentest, Tænk, Which?, Öko-Test) count as measured competitors. Then run that check first on shortlist #2, measured-comfort bedding: does a referee already publish measured warmth for duvets that cost less? Carry one practice to any future consumable: a batch code that opens that batch's raw results.
+- **Arguments:** [Idea brief](sessions/2026-09-28-verified-spf-sunscreen/idea.md) · [Believer](sessions/2026-09-28-verified-spf-sunscreen/1-believer.md) · [Skeptic](sessions/2026-09-28-verified-spf-sunscreen/2-skeptic.md) · [Investor](sessions/2026-09-28-verified-spf-sunscreen/3-investor.md) · [Judge](sessions/2026-09-28-verified-spf-sunscreen/4-judge.md)
+
 ## 2026-09-26 · First Principle, product #1 (air purifier)
 
 - **Idea:** A €400 home air purifier (EC centrifugal fan, H13 HEPA, about 2.3 kg of refillable carbon, 300–400 m³/h CADR target, open filters, measured filter life, local control, no ozone) as the first product of First Principle, an EU brand that only claims what it can measure. It sells first to engineer-skeptics in DACH and the Nordics.

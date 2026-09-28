@@ -41,8 +41,8 @@ Nothing is scheduled while the project is archived. When a candidate category co
 - [ ] Run the three re-entry checks above, on paper.
 - [ ] If it passes, run `/council` on it, with this session's results in the brief.
 
-**Candidates:** all the screening lives in [6. Product candidates](docs/06-candidates.md). The current shortlist, none of it through the council yet:
-1. **Verified-SPF sunscreen**, labelled below the worst of several labs' results. Checks 1 and 2 pass; check 3 only narrowly.
+**Candidates:** all the screening lives in [6. Product candidates](docs/06-candidates.md). The shortlist, with only sunscreen through the council so far:
+1. **Verified-SPF sunscreen: killed by the council on 2026-09-28** ([ledger](council/ledger.md)). Stiftung Warentest already rated a €5.25 SPF 50+ face fluid "gut", so check 3 fails once independent testers count.
 2. **Measured-comfort bedding:** duvets and sheets sold on measured thermal and water-vapour resistance, against "cooling" claims. The checks look promising; demand is the open question.
 3. **A carbon cassette for DIY purifiers:** a cheap product #0 for building an audience, not a company.
 
