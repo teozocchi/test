@@ -15,7 +15,7 @@ The council is four subagents defined in `.claude/agents/`: `believer`, `skeptic
    3. `investor` gets the brief and both arguments.
    4. `judge` gets the brief and all three arguments, plus the ledger path, the entry format at the top of the ledger, and the session folder's file names.
 
-   Save each role's output verbatim to the session folder as `1-believer.md`, `2-skeptic.md`, `3-investor.md` and `4-judge.md`. Ask the first three roles to mark any figure they didn't verify as an estimate.
+   Save each role's output verbatim to the session folder as `1-believer.md`, `2-skeptic.md`, `3-investor.md` and `4-judge.md`. Ask the first three roles to mark any figure they didn't verify as an estimate. Don't cap their web searches: the searching is what makes their arguments worth reading.
 
    If the role agents aren't available by name yet (a newly created definition can take a while to load), run each one as a general-purpose agent with the body of `.claude/agents/<role>.md` pasted at the top of its prompt as its instructions.
 4. **Check the Judge's ledger entry** (right place, right format, links work), then commit and push the session.
