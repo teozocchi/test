@@ -41,9 +41,10 @@ Nothing is scheduled while the project is archived. When a candidate category co
 - [ ] Run the three re-entry checks above, on paper.
 - [ ] If it passes, run `/council` on it, with this session's results in the brief.
 
-Candidates noted so far (neither has been through the checks):
-- **A carbon-first purifier:** kilograms of carbon for smoke odour, with large-area, lower-grade particle filters, inside roughly 35–40 Pa. It would compete on odour and VOC capacity, not on particle CADR.
-- **A passive carbon cassette** *(Claude)*: a large-area carbon insert for the purifiers engineer-skeptics already own (Corsi-Rosenthal boxes, PC-fan purifiers). With no motor or electronics, it needs none of the electrical CE, radio or cybersecurity work, but it has to add almost no air resistance.
+**Candidates:** all the screening lives in [6. Product candidates](docs/06-candidates.md). The current shortlist, none of it through the council yet:
+1. **Verified-SPF sunscreen**, labelled below the worst of several labs' results. Checks 1 and 2 pass; check 3 only narrowly.
+2. **Measured-comfort bedding:** duvets and sheets sold on measured thermal and water-vapour resistance, against "cooling" claims. The checks look promising; demand is the open question.
+3. **A carbon cassette for DIY purifiers:** a cheap product #0 for building an audience, not a company.
 
 Optional groundwork that keeps its value while archived:
 - [ ] Trademark groundwork: a TMview check for national marks, and a read of Ab Initio's full goods list.
@@ -96,13 +97,14 @@ Notes marked **Council** summarise the council's findings. Its market, price and
 | [3. Go-to-market](docs/03-go-to-market.md) | First customer, why now, market, comparisons, the deposit test, the tear-down funnel |
 | [4. Product #1](docs/04-product.md) | The air purifier, killed at gate 0: the gate result, council verdict, draft engine spec, review, competitors, sensors, compliance |
 | [5. Business model](docs/05-business-model.md) | Open consumables, unit economics, the filter format |
+| [6. Product candidates](docs/06-candidates.md) | The re-entry screen: the shortlist, parked and rejected categories, with sources |
 | [The council](council/README.md) | Four agents that review an idea (Believer, Skeptic, Investor, Judge); every verdict is kept in the [ledger](council/ledger.md) |
 
 ## Open questions
 
 The backlog for when the project reopens, roughly in order of how much each unblocks.
 
-1. **Which category passes the re-entry checks?** See [where we are](#where-we-are).
+1. **Which category passes the re-entry checks?** See [6. Product candidates](docs/06-candidates.md).
 2. **For the carbon-first candidate: the pressure budget.** Can 2.3 kg of carbon and large-area particle filters fit within roughly 35–40 Pa at a quiet level in a home-sized box, and would anyone pay for it over a Luggable? ([Product](docs/04-product.md))
 3. **What's defensible.** An open design is a build sheet for a cheaper copy. ([Business model](docs/05-business-model.md))
 4. **Carbon saturation.** Fan power can't see the carbon filling up. How do we tell customers when to refill without the kind of timer we criticise? ([Product](docs/04-product.md))
